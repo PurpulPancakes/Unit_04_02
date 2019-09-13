@@ -15,7 +15,7 @@
 
 
 /* Structural Styles */
-
+/* A lot of color that is used to effect the background and text */
 html{
    background-color: rgb(173, 189, 227);
 }
@@ -28,6 +28,7 @@ body > footer{
    padding-top: 5px;
    padding-bottom: 5px;
 }
+/* And then the padding, which changes the spacing between content */
 address{
    font-style: normal;
    font-size: 0.9em;
@@ -67,6 +68,7 @@ nav a:hover, nav a:active{
 #tour_summary p{
    font-size: 1.1em;
 }
+/* Here is where we begin pseudo code, a more complex code*/
 #tour_summary > p:first-of-type::first-line{
    font-size: 1.2em;
    font-variant: small-caps
